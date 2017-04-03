@@ -29,7 +29,8 @@ def function(v, vals):
     return -2*x[0] + 3*x[1] + 5*x[2] + 7*x[3] - x[0]*x[1] - 2*x[1]*x[2] - 4*x[0]*x[3] - 5*x[1]*x[3]  # QPBF for question 3
 
 def main():
-    v = list('1234 ')
+    # v = list('123 ')  # Question 1, 2
+    v = list('1234 ')  # Question 3
     V = get_global_set(len(v))
     print V
 
